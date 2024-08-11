@@ -1,13 +1,13 @@
 package main
 
 import (
-    "log"
-    "net/http"
+	"log"
+	"net/http"
 
-    "transaction-service/pkg"
+	"transaction-service/pkg"
 )
 
 func main() {
-    r := pkg.NewRouter()
-    log.Fatal(http.ListenAndServe(":8080", r))
+	r := pkg.NewRouter()
+	log.Fatal(http.ListenAndServe(":8080", r))
 }
