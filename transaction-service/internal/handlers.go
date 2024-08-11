@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"strconv"
-	"transaction-service/pkg" // Import only for models, not for router
+	"transaction-service/pkg"
 )
 
 func CreateTransactionHandler(w http.ResponseWriter, r *http.Request) {

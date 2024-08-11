@@ -14,3 +14,4 @@ func NewRouter() *mux.Router {
 	r.HandleFunc("/transactionservice/sum/{id:[0-9]+}", internal.GetSumHandler).Methods("GET")
 	return r
 }
+ß
